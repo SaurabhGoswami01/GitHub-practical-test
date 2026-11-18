@@ -32,3 +32,37 @@ h2 {
     color: #1e3a8a;
     margin-bottom: 10px;
 }
+
+
+/* Navigation Bar Styling */
+
+nav {
+    background-color: #111827;
+    color: white;
+    padding: 18px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: white;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #60a5fa;
+}
+
